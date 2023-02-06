@@ -5,9 +5,9 @@ services:
     ports:
       - 5434:5432
     environment:
-      POSTGRES_USER: udemy
-      POSTGRES_PASSWORD: udemy
-      POSTGRES_DB: udemy
+      POSTGRES_USER: reat-api-by-nest
+      POSTGRES_PASSWORD: reat-api-by-nest
+      POSTGRES_DB: reat-api-by-nest
     restart: always
     networks:
       - lesson
